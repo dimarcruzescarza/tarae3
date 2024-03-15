@@ -1,0 +1,157 @@
+.padre
+{
+    background-color: rgb(65, 5, 62);
+    padding: 5px;
+    display: grid;
+    grid-template-columns:  30% 20% auto auto;
+    grid-template-rows: 60px 60px 60px 60px;
+}
+
+
+.hijo1
+{
+    background-color: red;
+    margin: 3px;
+    border-style: dashed;
+    border-color: rgb(7, 5, 8);
+    font-size: 40px;
+    grid-column: 1/6;
+}
+
+.hijo2
+{
+    background-color: orangered;
+    margin: 3px;
+    border-style: dashed;
+    border-color: rgb(7, 5, 8);
+    font-size: 40px;
+    grid-column: 1/3;
+}
+
+.hijo3
+{
+    background-color: orange;
+    margin: 3px;
+    border-style: dashed;
+    font-size: 40px;
+    border-color: rgb(7, 5, 8);
+    grid-column: 3/4;
+}
+
+.hijo4
+{
+    background-color: yellow;
+    margin: 3px;
+    border-style: dashed;
+    font-size: 40px;
+    border-color: rgb(7, 5, 8);
+    grid-column: 4/6;
+}
+
+.hijo5
+{
+    background-color: yellowgreen;
+    margin: 3px;
+    border-style: dashed;
+    font-size: 40px;
+    border-color: rgb(7, 5, 8);
+    grid-column: 1/2;
+}
+
+.hijo6
+{
+    background-color: lawngreen;
+    margin: 3px;
+    border-style: dashed;
+    font-size: 40px;
+    border-color: rgb(7, 5, 8);
+    grid-column: 2/6;
+}
+
+.hijo7
+{
+    background-color: green;
+    margin: 3px;
+    border-style: dashed;
+    font-size: 40px;
+    border-color: rgb(7, 5, 8);
+    grid-column: 1/4;
+}
+
+.hijo8
+{
+    background-color: blue;
+    margin: 3px;
+    border-style: dashed;
+    grid-template-rows: 20px 20px auto;
+    font-size: 40px;
+    border-color: rgb(7, 5, 8);
+    grid-column: 4/6;
+}
+
+
+.padre1
+{
+    background-color: aqua;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+
+}
+
+.h1
+{
+    width: 255px;
+    height: 300px;
+    background-color: yellow;
+    border-style: solid;
+    margin: 5px;
+
+}
+
+.h2
+{
+    width: 750px;
+    height: 300px;
+    background-color: blue;
+    border-style: solid;
+    margin: 5px;
+
+}
+
+.h3
+{
+    width: 255px;
+    height: 300px;
+    background-color: red;
+    border-style: solid;
+    margin: 5px;
+}
+
+
+
+
+
+.h2-2
+{
+    width: 735px;
+    height: 135px;
+    background-color: yellowgreen;
+    border-style: solid;
+    margin: 5px;
+    display: flex;
+}
+
+.h2-3
+{
+    width: 735px;
+    height: 135px;
+    background-color: yellowgreen;
+    border-style: solid;
+    margin: 5px;
+    display: flex;
+}
+
+
